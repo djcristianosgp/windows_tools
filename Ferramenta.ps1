@@ -1,5 +1,5 @@
 # ============================================
-# MENU DE SUPORTE TECNICO - FUNESA
+# MENU DE SUPORTE TECNICO
 # Versão: 3.0 (PowerShell Edition)
 # Autor original: Pablo Oliveira
 # Melhorias: ChatGPT
@@ -20,7 +20,7 @@ function Pause {
 function Show-Menu {
     Clear-Host
     Write-Host "==============================================" -ForegroundColor Cyan
-    Write-Host "      MENU DO SUPORTE TECNICO - FUNESA" -ForegroundColor Green
+    Write-Host "      MENU DO SUPORTE TECNICO" -ForegroundColor Green
     Write-Host "             por Pablo Oliveira - V3.0" -ForegroundColor Yellow
     Write-Host "==============================================" -ForegroundColor Cyan
     Write-Host ""
