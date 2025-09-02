@@ -6,7 +6,7 @@ setlocal enabledelayedexpansion
 :MENU
 cls
 echo ==============================================
-echo       MENU DO SUPORTE TECNICO - FUNESA
+echo       MENU DO SUPORTE TECNICO
 echo           por Pablo Oliveira - V2.0
 echo ==============================================
 echo.
