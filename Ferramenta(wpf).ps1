@@ -1,7 +1,6 @@
 <# ---------------------------------------------------------
- MENU DE SUPORTE TÉCNICO - FUNESA (GUI WPF)
+ MENU DE SUPORTE TÉCNICO (GUI WPF)
  Versão: 4.0 (PowerShell + WPF)
- Autor original: Pablo Oliveira
  Melhorias: ChatGPT
 -----------------------------------------------------------#>
 
@@ -72,7 +71,7 @@ function Run-Command {
 [xml]$xaml = @"
 <Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MENU DO SUPORTE TECNICO - FUNESA (v4.0)"
+        Title="MENU DO SUPORTE TECNICO (v4.0)"
         Width="1050" Height="680" WindowStartupLocation="CenterScreen"
         Background="#0d1117" Foreground="#e6edf3" FontFamily="Segoe UI">
     <Window.Resources>
@@ -114,7 +113,7 @@ function Run-Command {
 
         <!-- Cabeçalho -->
         <StackPanel Grid.ColumnSpan="2" Orientation="Horizontal" Margin="0 0 0 10">
-            <TextBlock Text="MENU DO SUPORTE TECNICO - FUNESA" FontSize="20" FontWeight="SemiBold"/>
+            <TextBlock Text="MENU DO SUPORTE TECNICO" FontSize="20" FontWeight="SemiBold"/>
             <TextBlock Text="  ·  v4.0" Margin="8,0,0,0" Foreground="#8b949e"/>
         </StackPanel>
 
